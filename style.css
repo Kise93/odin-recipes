@@ -1,0 +1,22 @@
+/** style css **/
+
+h1,
+h2 {
+    text-align: left;
+    font-size: 22px;
+
+    font: verdana, serif;
+}
+
+img {
+    height: 300px;
+    width: auto;
+}
+
+a, 
+p,
+li{
+    font-family: 'Verdana';
+    font-size: 20px;
+    word-wrap: normal;
+}
