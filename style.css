@@ -2,22 +2,23 @@
 
 h1,
 h2 {
-    text-align: left;
+    text-align: center;
     font-size: 22px;
+    max-width: 900px;
 
     font: verdana, serif;
 }
 
 img {
-    height: 300px;
-    width: auto;
+    height: auto;
+    max-width: 1000px;
 }
 
 a, 
 p,
 li{
-    font-family: 'Verdana';
+    font-family: 'Verdana',serif;
     font-size: 20px;
     word-wrap: normal;
-    width: 800px;
+    max-width: 900px;
 }
