@@ -6,7 +6,12 @@ h2 {
     font-size: 22px;
     max-width: 900px;
 
-    font: verdana, serif;
+    font-family: georgia, "times new romans", sans-serif;
+}
+
+h1.homepage {
+    text-align: left;
+    padding-left:20px;
 }
 
 img {
@@ -17,8 +22,28 @@ img {
 a, 
 p,
 li{
-    font-family: 'Verdana',serif;
+    font-family: georgia, "times new romans", sans-serif;
     font-size: 20px;
     word-wrap: normal;
     max-width: 900px;
+}
+
+/**{
+    border:2px solid red;
+}*/
+
+.pagetop.hover,
+.home.hover{
+    border-radius: 2px;
+    border:1px solid gray;
+    background-color: rgb(204, 204, 204);
+}
+.pagetop.hover:hover,
+.home.hover:hover{
+    background-color: rgb(158, 158, 158);
+}
+
+#pagetop,
+#header {
+    text-decoration:none;
 }
